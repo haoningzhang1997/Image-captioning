@@ -98,6 +98,8 @@ python setup.py develop
 ![e89c3622951489e9ed1c9ac2beb55ad](https://user-images.githubusercontent.com/57643917/76590069-1fe4bb80-64ba-11ea-8a9b-6e74b0777f8f.png)
 ### 5. Dockerfile and Dockerimage
 * I have uploaded the dockerfile:
+![1584074207(1)](https://user-images.githubusercontent.com/57643917/76590296-9681b900-64ba-11ea-8d25-96ec5e3b98e0.png)
+* Docker image can be seen here:
 
 
 
