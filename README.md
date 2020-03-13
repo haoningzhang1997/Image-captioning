@@ -50,7 +50,39 @@ configs/captioning/coco/butd.yml`<br>
 ![1584070907(1)](https://user-images.githubusercontent.com/57643917/76587786-09873180-64b3-11ea-8911-d6503646cb46.png)
 * Or you can just input a url link 
 ### 4.Model use on AWS via ubuntu 18.04 <br>
-
+* Download data(Your own path: like : /home/ubuntu/content)
+cd ~/content/
+mkdir model_data
+wget https://dl.fbaipublicfiles.com/pythia/data/vocabulary_captioning_thresh5.txt
+wget https://dl.fbaipublicfiles.com/pythia/detectron_model/detectron_model.pth 
+wget https://dl.fbaipublicfiles.com/pythia/pretrained_models/coco_captions/butd.pth
+wget https://dl.fbaipublicfiles.com/pythia/pretrained_models/coco_captions/butd.yml
+wget https://dl.fbaipublicfiles.com/pythia/detectron_model/detectron_model.yaml
+wget https://dl.fbaipublicfiles.com/pythia/data/detectron_weights.tar.gz
+tar xf /content/model_data/detectron_weights.tar.gz
+* install dependencies
+pip install ninja yacs cython matplotlib demjson
+pip install git+https://github.com/cocodataset/cocoapi.git
+* install fastext for Pythia
+cd /content/
+rm -rf fastText
+git clone https://github.com/facebookresearch/fastText.git fastText
+cd /content/fastText
+pip install -e .
+* install Pythia
+cd /content/
+rm -rf pythia
+git clone https://github.com/facebookresearch/pythia.git pythia
+cd /content/pythia
+sed -i '/torch/d' requirements.txt
+pip install -e .
+* Install maskrcnn-benchmark
+cd /content
+git clone https://gitlab.com/meetshah1995/vqa-maskrcnn-benchmark.git
+cd /content/vqa-maskrcnn-benchmark
+python setup.py build
+python setup.py develop
+* Then run the butd_AWS.py, if failed, changed the path in the py file to fit in your own path.You can also change the input path in py file.
 
 
 
