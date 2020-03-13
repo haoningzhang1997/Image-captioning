@@ -7,6 +7,6 @@
 ##  `4. Model use on AWS via ubuntu`
 ##  `5. Dockerimage and Dockerfile`
 ### 1. DOCUMENT
-* The problem that Pythia model target is Image captioning. The input is the url link(or image can be local path in the Google Colab) <br>
-And also, the output is a series of words that describe the image. Like the image shown below.
+* The problem that Pythia model target is Image captioning. The `input` is the url link(or image can be local path in the Google Colab) <br>
+And also, the `output` is a series of words that describe the image. Like the image shown below.
 
