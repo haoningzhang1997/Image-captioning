@@ -30,9 +30,13 @@ And also, the `output` is a series of words that describe the image. Like the im
  `wget http://dl.fbaipublicfiles.com/pythia/data/detectron_weights.tar.gz`<br>
  `tar xf detectron_weights.tar.gz`<br>
  Download and extract ImDB<br>
- mkdir -p imdb && cd imdb<br>
+ `mkdir -p imdb && cd imdb`<br>
  `wget https://dl.fbaipublicfiles.com/pythia/data/imdb/coco_captions.tar.gz`<br>
  `tar xf coco_captions.tar.gz`<br>
+ * Model Training
+ `python tools/run.py --tasks captioning --datasets coco --model butd --config \
+configs/captioning/coco/butd.yml`
+
 
 
 
