@@ -17,7 +17,7 @@ And also, the `output` is a series of words that describe the image. Like the im
 `cd ~/pythia`<br>
 `python setup.py develop`<br>
 * Download the Dataset <br>
-`cd ~/pythia; <br>
+ cd ~/pythia; <br>
  Create data folder <br>
  mkdir -p data && cd data; <br>
  Download and extract the features <br>
@@ -32,7 +32,7 @@ And also, the `output` is a series of words that describe the image. Like the im
  Download and extract ImDB<br>
  mkdir -p imdb && cd imdb<br>
  wget https://dl.fbaipublicfiles.com/pythia/data/imdb/textvqa_0.5.tar.gz<br>
- tar xf textvqa_0.5.tar.gz`<br>
+ tar xf textvqa_0.5.tar.gz<br>
 
 
 
