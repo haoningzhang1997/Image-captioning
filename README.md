@@ -17,11 +17,11 @@ And also, the `output` is a series of words that describe the image. Like the im
 `cd ~/pythia`<br>
 `python setup.py develop`<br>
 * Download the Dataset <br>
-`cd ~/pythia;<br>
- Create data folder<br>
- mkdir -p data && cd data;<br>
- Download and extract the features<br>
- wget https://dl.fbaipublicfiles.com/pythia/features/open_images.tar.gz<br>
+`cd ~/pythia; <br>
+ Create data folder <br>
+ mkdir -p data && cd data; <br>
+ Download and extract the features <br>
+ wget https://dl.fbaipublicfiles.com/pythia/features/open_images.tar.gz <br>
  tar xf open_images.tar.gz<br>
  Get vocabularies<br>
  wget http://dl.fbaipublicfiles.com/pythia/data/vocab.tar.gz<br>
