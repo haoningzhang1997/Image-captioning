@@ -17,22 +17,22 @@ And also, the `output` is a series of words that describe the image. Like the im
 `cd ~/pythia`<br>
 `python setup.py develop`<br>
 * Download the Dataset <br>
- cd ~/pythia; <br>
+ `cd ~/pythia`; <br>
  Create data folder <br>
- mkdir -p data && cd data; <br>
+ `mkdir -p data && cd data`; <br>
  Download and extract the features <br>
- wget https://dl.fbaipublicfiles.com/pythia/features/open_images.tar.gz <br>
- tar xf open_images.tar.gz<br>
+ `wget https://dl.fbaipublicfiles.com/pythia/features/coco.tar.gz` <br>
+ `tar xf coco.tar.gz`<br>
  Get vocabularies<br>
- wget http://dl.fbaipublicfiles.com/pythia/data/vocab.tar.gz<br>
- tar xf vocab.tar.gz<br>
+ `wget http://dl.fbaipublicfiles.com/pythia/data/vocab.tar.gz`<br>
+ `tar xf vocab.tar.gz`<br>
  Download detectron weights required by some models<br>
- wget http://dl.fbaipublicfiles.com/pythia/data/detectron_weights.tar.gz<br>
- tar xf detectron_weights.tar.gz<br>
+ `wget http://dl.fbaipublicfiles.com/pythia/data/detectron_weights.tar.gz`<br>
+ `tar xf detectron_weights.tar.gz`<br>
  Download and extract ImDB<br>
  mkdir -p imdb && cd imdb<br>
- wget https://dl.fbaipublicfiles.com/pythia/data/imdb/textvqa_0.5.tar.gz<br>
- tar xf textvqa_0.5.tar.gz<br>
+ `wget https://dl.fbaipublicfiles.com/pythia/data/imdb/coco_captions.tar.gz`<br>
+ `tar xf coco_captions.tar.gz`<br>
 
 
 
