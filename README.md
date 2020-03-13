@@ -8,5 +8,7 @@
 ##  `5. Dockerimage and Dockerfile`
 ### 1. DOCUMENT
 * The problem that Pythia model target is Image captioning. The `input` is the url link(or image can be local path in the Google Colab) <br>
-And also, the `output` is a series of words that describe the image. Like the image shown below.
+And also, the `output` is a series of words that describe the image. Like the image shown below.<br>
+![1584068863(1)](https://user-images.githubusercontent.com/57643917/76586136-f887f180-64ad-11ea-94e6-a13fd0a7a20d.png)
+
 
