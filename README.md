@@ -42,6 +42,7 @@ configs/captioning/coco/butd.yml`<br>
 `wget https://dl.fbaipublicfiles.com/pythia/pretrained_models/coco_captions/butd.pth`<br>
 `cd ../..`<br>
 `python tools/run.py --tasks captioning --datasets coco --model butd --config configs/captioning/coco/butd_beam_search.yml --resume_file data/models/butd.pth --evalai_inference 1 --run_type inference`<br>
+
 ### 3.Process in Google Colab<br>
 * The google link is : https://colab.research.google.com/drive/1OEw_V14XNm7sefND0ikKtjfOqBtFQMJS <br>
 * Image with local path:<br>
@@ -97,11 +98,11 @@ python setup.py develop
 ![555979438a00316f5fd02c83020ab5a](https://user-images.githubusercontent.com/57643917/76590051-15c2bd00-64ba-11ea-8cd9-95dd7bba6970.png)
 ![e89c3622951489e9ed1c9ac2beb55ad](https://user-images.githubusercontent.com/57643917/76590069-1fe4bb80-64ba-11ea-8a9b-6e74b0777f8f.png)
 ### 5. Dockerfile and Dockerimage
-* I have uploaded the dockerfile:
+* `I have uploaded the dockerfile:`
 ![1584074207(1)](https://user-images.githubusercontent.com/57643917/76590296-9681b900-64ba-11ea-8d25-96ec5e3b98e0.png)
-* Docker image can be seen here:
+* `Docker image can be seen here:`
 ![db442a9bbce16055bcfd73005a14926](https://user-images.githubusercontent.com/57643917/76590446-1dcf2c80-64bb-11ea-9615-4a6c452dbcf9.png)
-* you can pull the dockerimage below:
+* `you can pull the dockerimage below:`
 ![ba38db2be55e56d5290794ba3cdafd8](https://user-images.githubusercontent.com/57643917/76592407-422e0780-64c1-11ea-874d-0c942dc05466.png)
 
 
