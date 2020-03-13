@@ -6,5 +6,5 @@
 ##  `3. Model use on Google Colab`
 ##  `4. Model use on AWS via ubuntu`
 ##  `5. Dockerimage and Dockerfile`
-### *usadsa
+### * usadsa
 
