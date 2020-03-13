@@ -101,8 +101,8 @@ python setup.py develop
 ![1584074207(1)](https://user-images.githubusercontent.com/57643917/76590296-9681b900-64ba-11ea-8d25-96ec5e3b98e0.png)
 * Docker image can be seen here:
 ![db442a9bbce16055bcfd73005a14926](https://user-images.githubusercontent.com/57643917/76590446-1dcf2c80-64bb-11ea-9615-4a6c452dbcf9.png)
-![b795b79fad85e65df200f0c41641372](https://user-images.githubusercontent.com/57643917/76590450-21fb4a00-64bb-11ea-89fc-e272ce8819a1.png)
-
+* you can pull the dockerimage below:
+![ba38db2be55e56d5290794ba3cdafd8](https://user-images.githubusercontent.com/57643917/76592407-422e0780-64c1-11ea-874d-0c942dc05466.png)
 
 
 
