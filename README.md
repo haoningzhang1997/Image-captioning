@@ -10,6 +10,7 @@
 * The problem that Pythia model target is Image captioning. The `input` is the url link(or image can be local path in the Google Colab) <br>
 And also, the `output` is a series of words that describe the image. Like the image shown below.<br>
 ![1584068863(1)](https://user-images.githubusercontent.com/57643917/76586136-f887f180-64ad-11ea-94e6-a13fd0a7a20d.png)
+* The dataset we use is Microsoft COCO datasets and the format can be seen below:
 
 ### 2. Model training and prediction 
 * Download repository and setup <br>
@@ -95,6 +96,7 @@ python setup.py build
 python setup.py develop
 ```
 * Then run the butd_AWS.py, if failed, changed the path in the py file to fit in your own path.You can also change the input path in py file.
+* Also, due to different instances in AWS, I recommend you to use following API: torch, torchtext, torchvision, yac, and remember pull the requirement.txt in Pythia repository.
 * you can see the results:
 ![555979438a00316f5fd02c83020ab5a](https://user-images.githubusercontent.com/57643917/76590051-15c2bd00-64ba-11ea-8cd9-95dd7bba6970.png)
 ![e89c3622951489e9ed1c9ac2beb55ad](https://user-images.githubusercontent.com/57643917/76590069-1fe4bb80-64ba-11ea-8a9b-6e74b0777f8f.png)
