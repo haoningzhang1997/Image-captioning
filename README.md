@@ -63,29 +63,38 @@ wget https://dl.fbaipublicfiles.com/pythia/data/detectron_weights.tar.gz
 tar xf /content/model_data/detectron_weights.tar.gz
 ```
 * install dependencies
+```
 pip install ninja yacs cython matplotlib demjson
 pip install git+https://github.com/cocodataset/cocoapi.git
+```
 * install fastext for Pythia
+```
 cd /content/
 rm -rf fastText
 git clone https://github.com/facebookresearch/fastText.git fastText
 cd /content/fastText
 pip install -e .
+```
 * install Pythia
+```
 cd /content/
 rm -rf pythia
 git clone https://github.com/facebookresearch/pythia.git pythia
 cd /content/pythia
 sed -i '/torch/d' requirements.txt
 pip install -e .
+```
 * Install maskrcnn-benchmark
+```
 cd /content
 git clone https://gitlab.com/meetshah1995/vqa-maskrcnn-benchmark.git
 cd /content/vqa-maskrcnn-benchmark
 python setup.py build
 python setup.py develop
+```
 * Then run the butd_AWS.py, if failed, changed the path in the py file to fit in your own path.You can also change the input path in py file.
 * you can see the results:
+
 
 
 
