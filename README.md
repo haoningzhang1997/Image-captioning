@@ -11,6 +11,8 @@
 And also, the `output` is a series of words that describe the image. Like the image shown below.<br>
 ![1584068863(1)](https://user-images.githubusercontent.com/57643917/76586136-f887f180-64ad-11ea-94e6-a13fd0a7a20d.png)
 * The dataset we use is Microsoft COCO datasets and the format can be seen below:
+![a69bd919a9c352f74a01f6877f0b185](https://user-images.githubusercontent.com/57643917/76593398-398b0080-64c4-11ea-9e03-93518b0eb3ef.png)
+![a563309db239573325aba364c2da187](https://user-images.githubusercontent.com/57643917/76593404-3e4fb480-64c4-11ea-9907-b22ef3f77570.png)
 
 ### 2. Model training and prediction 
 * Download repository and setup <br>
