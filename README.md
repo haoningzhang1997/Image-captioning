@@ -1,7 +1,7 @@
 # Image-captioning(cited from Facebook Pythia)
 ![46ccdb4b620b96578e9bd036cb22a59](https://user-images.githubusercontent.com/57643917/76592963-e4022400-64c2-11ea-9a6e-6c1132bb6bf7.png)
 ## logistics:
-##  `* Decriptive document` 
+##  `1 Decriptive document` 
 ##  `2. Model training and prediction`
 ##  `3. Model use on Google Colab`
 ##  `4. Model use on AWS via ubuntu`
