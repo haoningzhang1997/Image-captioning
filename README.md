@@ -42,9 +42,14 @@ configs/captioning/coco/butd.yml`<br>
 `wget https://dl.fbaipublicfiles.com/pythia/pretrained_models/coco_captions/butd.pth`<br>
 `cd ../..`<br>
 `python tools/run.py --tasks captioning --datasets coco --model butd --config configs/captioning/coco/butd_beam_search.yml --resume_file data/models/butd.pth --evalai_inference 1 --run_type inference`<br>
-###3.Process in Google Colab<br>
+### 3.Process in Google Colab<br>
 * The google link is : https://colab.research.google.com/drive/1OEw_V14XNm7sefND0ikKtjfOqBtFQMJS <br>
 * Image with local path:<br>
+![1584070960(1)](https://user-images.githubusercontent.com/57643917/76587765-fa07e880-64b2-11ea-931b-309895a66400.png)
+![1584070978(1)](https://user-images.githubusercontent.com/57643917/76587774-00966000-64b3-11ea-9bec-794b7ed7a573.png)
+![1584070907(1)](https://user-images.githubusercontent.com/57643917/76587786-09873180-64b3-11ea-8911-d6503646cb46.png)
+* Or you can just input a url link 
+### 4.Model use on AWS via ubuntu 18.04 <br>
 
 
 
