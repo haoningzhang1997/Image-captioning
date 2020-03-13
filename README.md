@@ -94,6 +94,10 @@ python setup.py develop
 ```
 * Then run the butd_AWS.py, if failed, changed the path in the py file to fit in your own path.You can also change the input path in py file.
 * you can see the results:
+![555979438a00316f5fd02c83020ab5a](https://user-images.githubusercontent.com/57643917/76590051-15c2bd00-64ba-11ea-8cd9-95dd7bba6970.png)
+![e89c3622951489e9ed1c9ac2beb55ad](https://user-images.githubusercontent.com/57643917/76590069-1fe4bb80-64ba-11ea-8a9b-6e74b0777f8f.png)
+### 5. Dockerfile and Dockerimage
+* I have uploaded the dockerfile:
 
 
 
