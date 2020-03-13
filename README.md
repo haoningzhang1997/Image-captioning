@@ -18,19 +18,19 @@ And also, the `output` is a series of words that describe the image. Like the im
 `python setup.py develop`<br>
 * Download the Dataset 
 `cd ~/pythia;
-# Create data folder
+ Create data folder
 mkdir -p data && cd data;
-# Download and extract the features
+ Download and extract the features
 wget https://dl.fbaipublicfiles.com/pythia/features/open_images.tar.gz
 tar xf open_images.tar.gz
-# Get vocabularies
+ Get vocabularies
 wget http://dl.fbaipublicfiles.com/pythia/data/vocab.tar.gz
 tar xf vocab.tar.gz
-# Download detectron weights required by some models
+ Download detectron weights required by some models
 wget http://dl.fbaipublicfiles.com/pythia/data/detectron_weights.tar.gz
 tar xf detectron_weights.tar.gz
 
-# Download and extract ImDB
+ Download and extract ImDB
 mkdir -p imdb && cd imdb
 wget https://dl.fbaipublicfiles.com/pythia/data/imdb/textvqa_0.5.tar.gz
 tar xf textvqa_0.5.tar.gz`
