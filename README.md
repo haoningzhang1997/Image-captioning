@@ -43,7 +43,11 @@ configs/captioning/coco/butd.yml`<br>
 `cd ../..`<br>
 `python tools/run.py --tasks captioning --datasets coco --model butd --config configs/captioning/coco/butd_beam_search.yml --resume_file data/models/butd.pth --evalai_inference 1 --run_type inference`<br>
 ###3.Process in Google Colab<br>
-* The google link is :https://colab.research.google.com/drive/1OEw_V14XNm7sefND0ikKtjfOqBtFQMJS
+* The google link is : https://colab.research.google.com/drive/1OEw_V14XNm7sefND0ikKtjfOqBtFQMJS <br>
+* Image with local path:<br>
+
+
+
 
 
 
