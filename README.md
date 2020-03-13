@@ -12,9 +12,11 @@ And also, the `output` is a series of words that describe the image. Like the im
 ![1584068863(1)](https://user-images.githubusercontent.com/57643917/76586136-f887f180-64ad-11ea-94e6-a13fd0a7a20d.png)
 
 ### 2. Model training and prediction 
-* Download repository and setup 
-`git clone https://github.com/facebookresearch/pythia ~/pythia`
-`cd ~/pythia`
+* Download repository and setup <br>
+`git clone https://github.com/facebookresearch/pythia ~/pythia`<br>
+`cd ~/pythia`<br>
+`python setup.py develop`<br>
+* Download the Dataset 
 
 
 
