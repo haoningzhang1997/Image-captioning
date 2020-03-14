@@ -46,6 +46,8 @@ configs/captioning/coco/butd.yml`<br>
 `cd ../..`<br>
 `python tools/run.py --tasks captioning --datasets coco --model butd --config configs/captioning/coco/butd_beam_search.yml --resume_file data/models/butd.pth --evalai_inference 1 --run_type inference`<br>
 ![89fdeace218b1f66edfa83c6b91a97c](https://user-images.githubusercontent.com/57643917/76592884-ae5d3b00-64c2-11ea-9bcc-84943e56426f.png)
+* Pretrained Model link:
+https://dl.fbaipublicfiles.com/pythia/pretrained_models/coco_captions/butd.pth
 
 ### 3.Process in Google Colab<br>
 * The google link is : https://colab.research.google.com/drive/1OEw_V14XNm7sefND0ikKtjfOqBtFQMJS <br>
